@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "202051281440",
+    "project_id": "flutter-uber-1ae58",
+    "storage_bucket": "flutter-uber-1ae58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202051281440:android:318895cb63f58b56e91245",
+        "android_client_info": {
+          "package_name": "com.example.carapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202051281440-4d0poefbl98epoi76rmt5q6llspm33uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkWk58Jlw684n4mphiAql-UVg7kbjCYTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202051281440-4d0poefbl98epoi76rmt5q6llspm33uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
