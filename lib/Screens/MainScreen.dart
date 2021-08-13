@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:car_app/Assistants/assistantMethods.dart';
 import 'package:car_app/Widgest/Divider.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
@@ -36,6 +37,9 @@ class _MainScreenState extends State<MainScreen>
 
     CameraPosition cameraPosition = new  CameraPosition(target: latLatPosition,zoom: 14);
     newGoogleMapController.animateCamera(CameraUpdate.newCameraPosition(cameraPosition));
+
+    String? address = await AssistantMethods.searchCoordinateAddress(position);
+    print("This is your Address ::  " + address! );
   }
   //geolocator
 
